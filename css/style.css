@@ -41,8 +41,18 @@
 
 .debug .box{
 
-    height: 500px;
+    height: 600px;
     background-color: green;
     
     
+}
+
+.debug .desk{
+    height: 400px;
+    background-color: violet;
+}
+
+.debug .box-text{
+    height: 100px;
+    background-color: yellow;
 }
