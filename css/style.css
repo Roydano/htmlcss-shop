@@ -114,6 +114,14 @@ h4{
     text-transform: uppercase;
 }
 
+.price.full{
+    color: black;
+}
+
+
+.box-text{
+    margin-bottom: 50px;
+}
 
 
 
