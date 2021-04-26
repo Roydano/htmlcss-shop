@@ -30,8 +30,15 @@ body{
     width: calc(100% / 3);
 }
 
-.img{
+.img-on{
     width: 100%;
+    border-radius: 5px;
+}
+
+.img-off{
+    display: none;
+    width: 100%;
+    border-radius: 5px;
 }
 
 
@@ -51,30 +58,49 @@ body{
 }
 
 .sconto{
-    background-color: #d73b48;
-    color: white;
-    padding: 5px;
+    background-color: #d73b48;     
     position: absolute;
     bottom: 15px;
-    
-    
+    color: white;
+    padding: 5px;      
 
 }
 
 .eco{
-    background-color: #3e8158;
-    color: white;
-    padding: 5px;
+    background-color: #3e8158;   
     position: absolute;
     bottom: 15px;
     left: 50px;
+    color: white;
+    padding: 5px;
     
 }
 
+h4{
+    text-transform: uppercase;
+}
+
 .price{
-    display: inline-block;
+    display: inline-block;    
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
     padding-top: 15px;
 
+
+}
+
+
+
+
+/* sezione hoover */
+
+.desk:hover .img-on{
+    display: none;
+}
+
+.desk:hover .img-off{
+    display: block;
 }
 
 
@@ -109,7 +135,7 @@ body{
     background-color: violet;
 } */
 
-.debug .box-text{
+/* .debug .box-text{
     height: 100px;
     background-color: yellow;
-}
+} */
