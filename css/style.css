@@ -1,5 +1,48 @@
+/* formattazione pagina */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+/* common */
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.box{
+    width: calc(100% / 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* classe debug da togliere */
+
+.container.debug{
+    background-color: red;
+    height: 1000px;
+}
+
+.debug .box{
+
+    height: 500px;
+    background-color: green;
+    
+    
 }
