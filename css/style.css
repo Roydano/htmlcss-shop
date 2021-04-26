@@ -20,6 +20,12 @@ body{
     
 }
 
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .box{
     width: calc(100% / 3);
 }
@@ -63,6 +69,12 @@ body{
     bottom: 15px;
     left: 50px;
     
+}
+
+.price{
+    display: inline-block;
+    padding-top: 15px;
+
 }
 
 
