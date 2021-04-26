@@ -20,6 +20,30 @@
     width: calc(100% / 3);
 }
 
+.img{
+    width: 100%;
+}
+
+
+/* main */
+
+.heart{
+    font-size: 50px;
+}
+
+.sconto{
+    background-color: #d73b48;
+    color: white;
+    padding: 5px;
+
+}
+
+.eco{
+    background-color: #3e8158;
+    color: white;
+    padding: 5px;
+}
+
 
 
 
@@ -39,18 +63,18 @@
     height: 1000px;
 }
 
-.debug .box{
+/* .debug .box{
 
     height: 600px;
     background-color: green;
     
     
-}
+} */
 
-.debug .desk{
+/* .debug .desk{
     height: 400px;
     background-color: violet;
-}
+} */
 
 .debug .box-text{
     height: 100px;
