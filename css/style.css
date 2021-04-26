@@ -67,20 +67,23 @@ img{
 
 }
 
-.sconto{
-    background-color: #d73b48;     
+.info-box{
     position: absolute;
     bottom: 15px;
+}
+
+.sconto{
+    background-color: #d73b48;     
+    float: left;
     color: white;
-    padding: 5px;      
+    padding: 5px; 
+    margin-right: 5px;     
 
 }
 
 .eco{
     background-color: #3e8158;   
-    position: absolute;
-    bottom: 15px;
-    left: 50px;
+    float: left;    
     color: white;
     padding: 5px;
     
